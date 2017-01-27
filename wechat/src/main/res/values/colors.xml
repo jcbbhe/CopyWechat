@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="colorNotificationbar">#88FF0000</color>
+    <color name="colorBgToolbar">#FF393A3E</color>
+    <color name="colorBgContent">#FFFFFFFF</color>
+
+    <color name="colorText">#FFFFFFFF</color>
+    <color name="colorBorder">#FFD5D5D5</color>
+
+    <color name="colorTextChecked">#FF45C018</color>
+    <color name="colorTextNormal">#FF999999</color>
+</resources>

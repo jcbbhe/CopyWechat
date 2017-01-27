@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:background="@color/colorBgToolbar">
+
+    <android.support.v7.widget.Toolbar
+            android:id="@+id/main_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorBgToolbar"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextColor="@color/colorText"/>
+
+    <android.support.v4.view.ViewPager
+            android:id="@+id/main_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/main_toolbar"
+            android:layout_above="@+id/main_footbar"
+            android:background="@color/colorBgContent"/>
+
+    <RadioGroup
+            android:id="@+id/main_footbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bg_chat_message_toolbar"
+            android:orientation="horizontal">
+
+        <RadioButton
+                android:id="@+id/main_tab_button_chatlist"
+                android:checked="true"
+                style="@style/MainTabButtonStyle"
+                android:text="微信"/>
+        <RadioButton
+                android:id="@+id/main_tab_button_contacts"
+                style="@style/MainTabButtonStyle"
+                android:text="微信"/>
+        <RadioButton
+                android:id="@+id/main_tab_button_find"
+                style="@style/MainTabButtonStyle"
+                android:text="微信"/>
+        <RadioButton
+                android:id="@+id/main_tab_button_me"
+                style="@style/MainTabButtonStyle"
+                android:text="微信"/>
+
+    </RadioGroup>
+
+</RelativeLayout>
+

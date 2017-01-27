@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:paddingTop="@dimen/activity_vertical_padding"
+        android:paddingBottom="@dimen/activity_vertical_padding"
+        android:paddingLeft="@dimen/activity_horizontal_padding"
+        android:paddingRight="@dimen/activity_horizontal_padding"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_friend_item">
+
+    <ImageView
+            android:id="@+id/friend_head_photo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+    <TextView
+            android:id="@+id/friend_name"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
