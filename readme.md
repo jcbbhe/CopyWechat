@@ -12,7 +12,7 @@
 > butterknife 注入模块,
 > retrofit2 Http 模块,
 > greendao Db 模块,
-> rxjava,rxandroid 线程模块(rx bus),
+> rxjava,rxandroid 线程模块(rxbus),
 > glide 图片模块
 
 本项目纯属娱乐，有很多不尽人意的地方，也有很多为开发完善的地方，大神请略过....
