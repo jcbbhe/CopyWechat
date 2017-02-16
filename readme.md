@@ -9,7 +9,7 @@
 # 第三方sdk
 
 > 环信通信模块,
-> butterknife 注入模块，
+> butterknife 注入模块,
 > retrofit2 Http 模块,
 > greendao Db 模块,
 > rxjava,rxandroid 线程模块(rx bus),
